@@ -68,7 +68,6 @@ public class AddCriminalDialog extends JDialog {
         btnUploadPhoto = new JButton("Upload Photo");
         btnUploadPhoto.addActionListener(e -> selectPhoto());
 
-        // Form layout
         formPanel.add(new JLabel("Name:"));
         formPanel.add(txtName);
         formPanel.add(new JLabel("Alias:"));
