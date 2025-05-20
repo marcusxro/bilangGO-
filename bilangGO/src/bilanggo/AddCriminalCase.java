@@ -56,7 +56,7 @@ public class AddCriminalCase extends JDialog {
             "Burglary", "Domestic Violence", "Illegal Possession of Firearms"
         };
         lstCrimeTypes = new JList<>(crimeTypes);
-        lstCrimeTypes.setSelectionMode(ListSelectionModel.SINGLE_SELECTION); // Single selection for toggling
+        lstCrimeTypes.setSelectionMode(ListSelectionModel.SINGLE_SELECTION); 
         lstCrimeTypes.setCellRenderer(new ToggleListCellRenderer());
         lstCrimeTypes.addListSelectionListener(e -> {
             if (!e.getValueIsAdjusting()) {
